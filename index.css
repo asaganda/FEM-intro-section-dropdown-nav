@@ -103,6 +103,19 @@ body {
   width: 20px;
   padding-right: 15px;
 }
+.company-list {
+  padding-left: 24px;
+}
+.company-list li {
+  display: block;
+  margin-bottom: 16px;
+}
+.company-list li:first-child {
+  margin-top: 18px;
+}
+.company-list li:last-child {
+  margin-bottom: 8px;
+}
 .login-register {
   display: flex;
   margin-left: auto;
