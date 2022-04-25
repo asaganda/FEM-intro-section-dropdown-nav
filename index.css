@@ -1,0 +1,170 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*font-family: 'Epilogue', sans-serif;*/
+
+body {
+  margin: 0px;
+}
+.menu-background {
+  display: none;
+}
+.menu-background-on {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 16px 24px 16px;
+}
+.menu-icon {
+  width: 32px;
+  height: 18px;
+}
+.menu-icon-close {
+  display: none;
+}
+.menu-icon-close-show {
+  display: flex;
+  align-self: flex-end;
+  padding-top: 22px;
+  padding-right: 20px;
+  margin-bottom: 32px;
+}
+.menu .general,
+.menu .login-register {
+  display: none;
+}
+.menu .general.mobile-show {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: white;
+  width: 216px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  margin-top: 0px;
+  padding-left: 24px;
+}
+.features-list,
+.company-list {
+  display: none;
+}
+.list-active {
+  display: block;
+}
+.nav-option {
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.nav-option a {
+  color: #686868;
+  text-decoration: none;
+}
+.nav-option-arrow {
+  margin-left: 17px;
+}
+.nav-option-arrow-hide {
+  display: none;
+}
+.nav-option-arrow-up {
+  display: none;
+}
+.nav-option-arrow-up-active {
+  display: inline;
+  margin-left: 17px;
+}
+.features-list {
+  padding-left: 24px;
+}
+.features-list li {
+  display: block;
+  margin-bottom: 16px;
+}
+.features-list li a {
+  vertical-align: text-bottom;
+}
+.features-list li:first-child {
+  margin-top: 24px;
+}
+.features-list li:last-child {
+  margin-bottom: 8px;
+}
+.features-list img {
+  width: 20px;
+  padding-right: 15px;
+}
+.login-register {
+  display: flex;
+  margin-left: auto;
+}
+ul {
+  list-style-type: none;
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.hero h1 {
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+.hero h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #686868;
+}
+.hero button {
+  width: 136px;
+  height: 48px;
+  border: none;
+  border-radius: 15px;
+  background: #151515;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FAFAFA;
+}
+.hero .brand-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero img.databiz {
+  width: 81.25px;
+  height: 14.36px;
+}
+.hero img.audiophile {
+  width: 52.87px;
+  height: 26px;
+}
+.hero img.meet {
+  width: 64.14px;
+  height: 14.36px;
+}
+.hero img.maker {
+  width: 58.9px;
+  height: 17.23px;
+}
+.hero img.hero-banner {
+  width: 100%;
+}
