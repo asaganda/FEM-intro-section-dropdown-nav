@@ -129,12 +129,20 @@ ul {
   display: flex;
   flex-direction: column-reverse;
 }
+.hero .hero-copy{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .hero h1 {
   font-family: 'Epilogue', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  margin-top: 47px;
+  margin-bottom: 16px;
 }
 .hero h2 {
   font-family: 'Epilogue', sans-serif;
@@ -143,6 +151,9 @@ ul {
   font-size: 16px;
   line-height: 26px;
   color: #686868;
+  width: 350px;
+  margin-top: 0px;
+  margin-bottom: 24px;
 }
 .hero button {
   width: 136px;
@@ -156,6 +167,7 @@ ul {
   font-size: 16px;
   line-height: 26px;
   color: #FAFAFA;
+  margin-bottom: 48px;
 }
 .hero .brand-logos {
   display: flex;
