@@ -125,6 +125,9 @@ ul {
   display: flex;
   flex-direction: column-reverse;
 }
+.hero-banner-desktop {
+  display: none;
+}
 .hero .hero-copy{
   text-align: center;
   display: flex;
@@ -193,11 +196,14 @@ ul {
 /*desktop*/
 @media (min-width: 1100px) {
   .menu {
-    padding: 25px 40px;
+    align-items: center;
+    padding: 21px 40px;
+    padding-bottom: 67px;
   }
   .menu img.logo {
-    width: 87px;
-    height: 35px;
+    width: 83.5px;
+    height: 26.58px;
+    padding-top: 11px;
   }
   .menu .general,
   .menu .login-register {
@@ -206,6 +212,8 @@ ul {
   .general {
     margin-top: 0px;
     margin-bottom: 0px;
+    align-items: center;
+    padding-left: 62px;
   }
   .menu-icon {
     display: none;
@@ -213,8 +221,11 @@ ul {
   .nav-option {
     font-size: 14px;
     line-height: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 0px;
     margin-right: 40px;
+  }
+  .nav-option a:hover {
+    color: #151515;
   }
   .nav-option-arrow {
     margin-left: 9px;
@@ -231,7 +242,7 @@ ul {
     border-radius: 10px;
     margin-top: 20px;
     padding: 24px;
-    left: 109px;
+    left: 119px;
   }
   .features-list li:first-child {
     margin-top: 0px;
@@ -243,6 +254,137 @@ ul {
     width: 16px;
     padding-right: 14px;
   }
+  .company-list {
+    position: absolute;
+    /*width: 153px;
+    height: 160px;*/
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 24px;
+    left: 311px;
+  }
+  .features-list li {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .company-list li:first-child {
+    margin-top: 0px;
+  }
+  .company-list li:last-child {
+    margin-bottom: 0px;
+  }
   .login-register {
     margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+  }
+  .login-register li a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #686868;
+    text-decoration: none;
+  }
+  .login-register li.register {
+    border: 1.5px solid #686868;
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding: 13px 22px;
+  }
+  .login-register li.register:hover {
+    border: 1.5px solid #151515;
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding: 13px 22px;
+    cursor: pointer;
+  }
+  .login-register li a:hover {
+    color: #151515;
+    cursor: pointer;
+  }
+  .login-register .login {
+    margin-right: 40px;
+  }
+  .hero {
+    flex-direction: row;
+  }
+  .hero-banner {
+    display: none;
+  }
+  .hero-banner-desktop {
+    display: block;
+    width: 480px;
+  }
+  .block {
+    display: block;
+  }
+  .hero-and-brands {
+    width: 57.7%;
+    align-self: end;
+  }
+  .hero .hero-copy {
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 165px;
+  }
+  .hero h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -1.11111px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+  }
+  .hero h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #686868;
+    width: 450px;
+    margin-bottom: 51px;
+  }
+  .hero button {
+    width: 163px;
+    height: 56px;
+    border: none;
+    border-radius: 15px;
+    background: #151515;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FAFAFA;
+    margin-bottom: 108px;
+  }
+  .hero .brand-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 477px;
+    padding-left: 165px;
+  }
+  .hero img.databiz {
+    width: 113.14px;
+    height: 20px;
+  }
+  .hero img.audiophile {
+    width: 73px;
+    height: 35.9px;
+  }
+  .hero img.meet {
+    width: 89.31px;
+    height: 20px;
+  }
+  .hero img.maker {
+    width: 82.01px;
+    height: 24px;
   }
