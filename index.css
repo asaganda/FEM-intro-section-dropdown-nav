@@ -29,6 +29,10 @@ body {
 .menu-icon-close-show {
   display: flex;
   align-self: flex-end;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
   padding-top: 22px;
   padding-right: 20px;
   margin-bottom: 32px;
@@ -47,6 +51,7 @@ body {
   right: 0;
   top: 0;
   margin-top: 0px;
+  padding-top: 78px;
   padding-left: 24px;
 }
 .features-list,
@@ -364,6 +369,12 @@ ul {
     line-height: 28px;
     color: #FAFAFA;
     margin-bottom: 108px;
+  }
+  .hero button:hover {
+    background: white;
+    color: black;
+    border: 1px solid #151515;
+    box-sizing: border-box;
   }
   .hero .brand-logos {
     display: flex;
